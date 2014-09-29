@@ -1,0 +1,447 @@
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding: 2px;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+	font-size: .65em;
+	line-height: 1.8em;
+	background-color:#FFFFFF;
+    overflow-x: hidden;
+	/*min-width: 780px;*/
+	}
+	
+#wrapper {
+	position: relative;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom:25px;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+
+}
+
+/* headings */
+
+
+h1 {
+	display: block;
+	width: auto;		
+	height: 40px;
+	font-family: Palatino;
+	font-size: 3.0em;
+	line-height: 1.2em;
+	padding: 0 0 0 0;
+	margin: 5px 5px 7px 5px;
+	color: #222222;
+
+}
+
+#grad{
+	margin-right:35px;
+	margin-top:5px;
+}
+/* h1 presents the logo */ 
+
+h1 img {
+	border: 0;
+	padding: 2px;
+	margin: 2px;
+}
+
+h2 {
+	padding: 10px 5px 0px 5px;
+	margin: 5px 0px 5px 0;
+	font-size: 1.5em;
+	font-style: italic;
+	line-height: 1.2em;
+	font-weight: normal;
+	color: #333333;
+}
+
+h3 {
+	width: 90%;
+	padding: 15px 15px 7px 15px;
+	margin: 0;
+	font-size: 1.47em;
+	line-height: 1.3em;
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #0047AB;
+	color: #333333;
+}
+
+h3 span {
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #0047AB;
+}
+
+h4 {
+	padding: 15px 15px 0 15px;
+	margin: 0;
+	font-size: .95em;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+h4.title {
+	padding: 3px 15px 5px 15px;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1em;
+	font-weight: normal;
+	font-style: italic;
+	color: #666;
+}
+
+h5 {
+	padding: 6px 15px 0 15px;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1em;
+	font-weight: normal;
+	font-style: italic;
+	color: #333;
+}
+
+h6 {
+	width: 100%;
+	padding: 7px 15px 2px 15px;
+	margin: 0;
+	font-size: 1.37em;
+	line-height: 1.0em;
+	font-weight: bold;
+	color: #0047AB;
+	color: #333333;
+}
+
+h6 span {
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #0047AB;
+}
+
+#projDesc{
+	font-size:12px;
+}
+
+
+
+	
+a {
+	color: #D12838;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+	}
+	
+a.image {
+	color: white;
+	text-decoration: none;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+	border: 0;
+	}
+
+a.image:hover
+{
+	color: white;
+	text-decoration: none;
+}
+	
+a:hover {
+	color: #0047AB;
+	}
+
+a.invertLink { color: #1147AB; font-family: "Trebuchet MS",Lucida Console, monospace; font-size: 1.1em;}
+a.invertLink:hover { color: #D12838;font-size: 1.1em;}
+	
+img
+{
+    border: 0;
+}
+
+p {
+	padding: 3px 5px 3px 5px;
+	margin: 0;
+	color: black;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+	font-size: 1.3em;
+	width: 95%;
+	line-height: 1.6em;
+}
+
+#mainText{
+	text-align:justify;
+}
+
+p.closer {
+	padding: 0px 15px 0px 15px;
+	line-height: 1.3em;
+	
+}
+
+p.imageSpace {
+	padding: 30px 15px 30px 15px;
+	margin: 0;
+}
+
+ul {
+	width: 90%;    
+    font-size: 1.2em;
+}
+
+ul li {
+	padding: 2px 0 2px 0;
+	margin: 0;
+
+}
+
+
+ul.tightList {
+	/*padding-top: 5px;*/
+	margin: 0;
+/*	list-style-type: none;*/
+}
+
+ul.tightList li {
+	padding: 0 0 0 0;
+	margin: 1em;
+/*	list-style-type: none;*/
+}
+
+ul.unbulletList li {
+	padding: 0 0 0 0;
+	margin: 1em;
+	list-style-type: none;
+}
+
+span.listTitle {
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+/* NAVIGATION */
+
+#navigation {
+	width: 100%;
+	padding: 7px 0px 7px 0px;
+	margin: 0 0 0 0;
+	list-style-type: none;
+	list-style-position: outside;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+
+	font-size:8px;
+}
+
+#navigation li {
+
+	float: left;
+	padding: 0 7px 5px 7px;	
+	margin: 0;
+	font-size:1.4em;
+}
+ 
+#navigation li em {
+	background-color: #FFFF00;
+
+}
+
+#navigation ul {
+	padding: 0 0 0 5px;
+	margin: 0;
+
+	list-style-position: outside;
+	list-style-type: disc;
+	color: #CCC;
+}
+
+#navigation ul li {
+
+	padding: 1px 0 1px 0;
+	margin: 0;
+}
+
+#navigation ul ul {
+	padding: 0;
+	margin: 0;
+	list-style-position: outside;
+	list-style-type: disc;
+	color: #CCC;
+}
+
+#navigation ul ul li {
+	padding: 1px 0 1px 10px;
+	margin: 0;
+}
+
+span {
+	color: #000;
+}
+
+
+
+/* BODY */
+
+#mainBody {
+	position: absolute;
+	width: auto;
+	padding: 0;
+	font-size:10px;
+	text-align:justify;
+}
+
+
+/* navigation social links */
+
+#navigationLinks {
+	width: 100%;
+	padding: 2px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+	list-style-type: none;
+	list-style-position: outside;
+	font-family: "Trebuchet MS",Lucida Console, monospace;
+
+	font-size:10px;
+
+}
+
+#navigationLinks li {
+
+	float: left;
+	padding: 0 7px 5px 7px;	
+	margin: 0;
+	font-size:1.4em;
+}
+ 
+#navigationLinks li em {
+	background-color: #FFFF00;
+
+}
+
+#navigationLinks ul {
+	padding: 0 0 0 10px;
+	margin: 0;
+	list-style-position: outside;
+	list-style-type: disc;
+	color: #CCC;
+}
+
+#navigationLinks ul li {
+
+	padding: 1px 0 1px 0;
+	margin: 0;
+}
+
+#navigationLinks ul ul {
+	padding: 0;
+	margin: 0;
+	list-style-position: outside;
+	list-style-type: disc;
+	color: #CCC;
+}
+
+#navigationLinks ul ul li {
+	padding: 1px 0 1px 10px;
+	margin: 0;
+}
+
+
+/* proj desc. */
+
+#projDesc{
+	margin-left:10px;
+}
+
+#underCons{
+
+	font-size:15px;
+	margin-top:15px;
+	padding-top:10px;
+
+}
+
+#thesis{
+	font-size:10px;
+	color:blue;
+	
+}
+
+#tools{
+	font-size:12px;
+}
+
+#options{
+	font-size:12px;
+	padding-left:15px;
+	padding-top:3px;
+	padding-bottom:5px;
+}
+#projH2{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#edu1{
+	padding:0px 0px 5px 0px;
+	margin:0px 0px 0px 0px;
+	font-size: 1.2em;
+	width: 97%;
+	
+	
+}
+#edu5{
+	padding:0px 0px 5px 10px;
+	margin:0px 0px 0px 10px;
+	font-size: 1.2em;
+	width: 80%;
+	
+	
+}
+#edu6{
+	padding:0px 0px 5px 15px;
+	margin:0px 0px 0px 15px;
+	font-size: 1.2em;
+	width: 80%;
+	
+	
+}
+#eduHead{
+	font-size: 1.07em;
+	font-family: "Tahoma",Lucida Console, monospace;
+	
+}
+#eduHeadHead{
+	font-size: 1.5em;
+	line-height: 1.2em;
+	font-weight: bold;
+	font-style:normal;
+
+}
+#eduHR{
+	
+	width:80%;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+hr{
+	width:98%;
+	align:left;
+}
+
+#proj1{
+	padding-left:30px;
+}
